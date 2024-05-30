@@ -59,17 +59,6 @@ function get_imdb_Id(film, res){
     }
 }
 
-// function serve_idmb_details(data, res) { // json string is passed containing details of movies that is similar to user input
-
-//     let movie_object = JSON.parse(data); // data in the form of json string so convert it to object so we can manipulate;
-//     let movie = movie_object && movie_object.results; // the array with movies and their parameters (id, title, description)
-//     // we get array with movie titles that match and their descriptors
-
-//     let first_movie_id = get_firstmovie_id(movie); // (2ND API CALL) function to get first movie id streaming services
-//     console.log("first movie idmb ID: " + first_movie_id);
-
-//     get_stream_sources(first_movie_id, res);
-// }
 
 function serve_idmb_details(data, res) { // json string is passed containing details of movies that is similar to user input
 
